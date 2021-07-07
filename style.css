@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #becac8;
+    margin: 0;
+}
+.header-area{
+    overflow: hidden;
+    background-color: black;
+    padding-right: 10px;
+    box-shadow: 0 5px 5px -5px #000;
+    padding-bottom: 10px;
+    color:white
+}
+
+
+.logo{
+    float: left;
+    padding-left: 144px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.menubar{
+  
+    
+    color:black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    padding: 8px 116px 0 0;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    padding:10px;
+    display: block;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 16px 0 0 0;
+    text-decoration: none;
+    color: white
+  }
+  
+  li a:hover {
+    background-color:gray;
+  }
+ .top-part{
+     display: flex;
+     
+ }
+ .top-left-part{
+     width: 42%;
+     margin: 10% 0 0 10%;
+ }
+ .top-left-part p{
+     width: 80%;
+     margin: 0 0 10% 0;
+ }
+ .top-right-part{
+    width: 50%;
+     margin: 10% 0 0 0;
+ }
+.button{
+    text-decoration: none;
+    color:white;
+    padding:10px 40px;
+    border-radius: 10px solid;
+    background-color: tomato;
+    
+}
+.row-section{
+    display: flex;
+    margin: 10% 5% 0 5%;
+}
+.row{
+    width: 30%;
+    margin: 0 0 0 2%;
+}
+.button{
+margin: 10% 0 0 0;
+}
+.row img{
+    width: 100%;
+    height: 200px;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    color:white;
+    font-size: smaller;
+    margin: 10% 0 0 0;
+    padding: 0 2% 0 2%;
+}
+.latest-post{
+    width: 40%;
+    margin: 2% 0 2% 5%;
+}
+.latest-post .post{
+    display: flex;
+}
+.latest-post .post .date{
+    width: 20%;
+    background-color: white;
+    margin: 2% 2% 0 0;
+    padding: 2%;
+    border-radius: 10px;
+    color:gray;
+    font-weight: 700;
+    text-align: center;
+}
+.latest-post .post .post-details{
+    width: 80%;
+}
+.about{
+    width: 40%;
+    margin: 2% 0 0 5%;
+}
+.stay-connected{
+    width: 30%;
+    margin: 2% 0 0 5%;
+}
+.stay-connected .icon{
+    margin: 2%;
+    padding: 2%;
+}
+.stay-connected .icon .iconname{
+    margin: 0 0 0 2%;
+}
+.footer h1{
+    color:gray
+}
